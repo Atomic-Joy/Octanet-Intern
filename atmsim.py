@@ -1,7 +1,7 @@
 class ATM:
     def __init__(self):
         # Initialize ATM with a default account
-        self.balance = 1000.00  # Starting balance
+        self.balance = 10000.00  # Starting balance
         self.pin = "1234"  # Default PIN
         self.transaction_history = []  # List to store transaction history
         self.is_logged_in = False  # Flag for login status
